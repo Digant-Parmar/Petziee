@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "232300058192",
+    "firebase_url": "https://petezzie.firebaseio.com",
+    "project_id": "petezzie",
+    "storage_bucket": "petezzie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232300058192:android:5c52a025ab5bb157d46355",
+        "android_client_info": {
+          "package_name": "com.petziee.petziee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232300058192-islaod35arppj9u96dvaegm7ukjag82s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.petziee.petziee",
+            "certificate_hash": "29ad87d83727efd4c8005fef34e39795dbd3037d"
+          }
+        },
+        {
+          "client_id": "232300058192-5kor4l90qr24kf0520dievu801c7ffak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS-pQP-2qXI1Vxyll0uzFUMrZJ5N3kdRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232300058192-5kor4l90qr24kf0520dievu801c7ffak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232300058192:android:6336da7d05c24db0d46355",
+        "android_client_info": {
+          "package_name": "com.vnd.petApp.petziee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232300058192-1rk2gle1511beaokggvi9p16okij78io.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vnd.petApp.petziee",
+            "certificate_hash": "9d3c9a61bbbf50d062b384b5fd10d78e420f7365"
+          }
+        },
+        {
+          "client_id": "232300058192-bc0e5ohkhetu9pebo925sksiu1bqn26b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vnd.petApp.petziee",
+            "certificate_hash": "8db6113aa4dcd171c6934fe719b9233dcc463bcf"
+          }
+        },
+        {
+          "client_id": "232300058192-ndfp3rsilnfoh0mm67de4nb34pqrju76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vnd.petApp.petziee",
+            "certificate_hash": "29ad87d83727efd4c8005fef34e39795dbd3037d"
+          }
+        },
+        {
+          "client_id": "232300058192-5kor4l90qr24kf0520dievu801c7ffak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS-pQP-2qXI1Vxyll0uzFUMrZJ5N3kdRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232300058192-5kor4l90qr24kf0520dievu801c7ffak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
