@@ -1,3 +1,5 @@
+// @dart=2.9
+
 import 'dart:io';
 
 import 'package:camera/camera.dart';
@@ -17,8 +19,9 @@ import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'SignIn/signupScreen.dart';
 import 'colors/Themes.dart';
-import 'file:///C:/Users/digan/AndroidStudioProjects/petziee/lib/SignIn/signupScreen.dart';
+
 
 import 'Notification/DataNotification.dart';
 import 'Notification/NotificationsBloc.dart';
@@ -28,7 +31,7 @@ import 'widgets/phoneDatabase.dart';
 //TODO: -------ADD MAP API FOR IOS AND ALSO ITS PERMISSIONS
 
 bool ?isLoaded;
-List<CameraDescription> ?cameras;
+List<CameraDescription> cameras;
 // const myTask = "setOffline";
 // FirebaseApp defaultApp;
 
@@ -206,14 +209,14 @@ class _MyAppState extends State<MyApp> {
       iOS: initializationSettingsIos,
     );
     await flutterLocalNotificationsPlugin.initialize(initSettings,
-        onSelectNotification: (value) => onSelectNotification(value!));
+        onSelectNotification: (value) => onSelectNotification(value));
 
     if (Platform.isIOS) {
       getIOSPermissions();
       _firebaseMessaging.setAutoInitEnabled(true);
     }
     _firebaseMessaging.getToken().then((token) async {
-      auth.User? user = auth.FirebaseAuth.instance.currentUser;
+      auth.User user = auth.FirebaseAuth.instance.currentUser;
       if (user != null) {
         FirebaseFirestore.instance
             .collection("users")
@@ -510,7 +513,7 @@ Future<AndroidNotificationDetails> getAndroidNotificationDetails(
 
 // LocalNotification
 
-Future<BigPictureStyleInformation?> getBigPictureStyle(
+Future<BigPictureStyleInformation> getBigPictureStyle(
     DataNotification notification) async {
   if (notification.imageUrl != null) {
     print("Downloading");
